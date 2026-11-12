@@ -1,0 +1,30 @@
+commits: {'gcp': '294caee', 'aws': '802cb1c', 'azure': 'bbee6ae'}
+| Role | GCP lines | AWS lines | Azure lines | AWS vs GCP changed | Azure vs GCP changed | AWS vs Azure changed | identical |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | :--- |
+| Charts catalog (JSON) | 95 | 95 | 95 | 0 | 0 | 0 | all three |
+| Macros | 181 | 181 | 181 | 0 | 0 | 0 | all three |
+| Reply-text rescue | 118 | 122 | 122 | 162 | 164 | 164 |  |
+| Agent + A2UI tool | 176 | 165 | 204 | 253 | 326 | 131 |  |
+| MCP server | 75 | 78 | 78 | 19 | 19 | 0 | AWS = Azure |
+| AG-UI entry point | 68 | 41 | 34 | 89 | 76 | 39 |  |
+| Macro tests | 99 | 129 | 138 | 38 | 47 | 47 |  |
+| Rescue tests | 83 | 71 | 56 | 110 | 117 | 87 |  |
+| Render suite | 93 | 93 | 93 | 0 | 0 | 0 | all three |
+| UI app/page.tsx | 151 | 151 | 151 | 2 | 2 | 2 |  |
+| UI app/layout.tsx | 23 | 23 | 23 | 0 | 0 | 0 | all three |
+| UI app/globals.css | 24 | 24 | 24 | 0 | 0 | 0 | all three |
+| UI app/api/copilotkit/[[...slug]]/route.ts | 50 | 55 | 53 | 11 | 9 | 10 |  |
+| UI components/A2UICustomCatalog.tsx | 186 | 186 | 186 | 0 | 0 | 0 | all three |
+| UI components/A2uiMessages.tsx | 52 | 52 | 52 | 0 | 0 | 0 | all three |
+| UI components/a2uiResult.ts | 45 | 45 | 45 | 0 | 0 | 0 | all three |
+| UI components/CopilotProvider.tsx | 18 | 18 | 18 | 0 | 0 | 0 | all three |
+| UI components/currency.tsx | 57 | 57 | 57 | 0 | 0 | 0 | all three |
+| UI components/weather.tsx | 69 | 69 | 69 | 0 | 0 | 0 | all three |
+| UI components/proverbs.tsx | 47 | 47 | 47 | 0 | 0 | 0 | all three |
+| UI app/api/agentcore/route.ts | - | 99 | - | - | - | - |  |
+
+12 of 21 roles byte-identical in all three repos
+lines in byte-identical files: 890
+gcp: 1710 lines over the listed roles; byte-identical share 890/1710 = 52%
+aws: 1801 lines over the listed roles; byte-identical share 890/1801 = 49%
+azure: 1726 lines over the listed roles; byte-identical share 890/1726 = 52%

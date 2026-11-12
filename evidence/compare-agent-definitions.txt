@@ -1,0 +1,30 @@
+| Name | GCP | AWS | Azure | AWS == Azure | GCP == AWS |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| BASE_CATALOGS | x | x | x | yes | yes |
+| DEFAULT_MODEL |  | x | x |  |  |
+| ERROR_KEY |  | x | x | yes |  |
+| EndTurnAfterUi |  |  | x |  |  |
+| INFERENCE_CATALOGS | x | x | x | yes | yes |
+| MacroSendA2uiToClientToolset | x |  |  |  |  |
+| ROLE_INSTRUCTION | x | x | x | yes |  |
+| TOOL_INSTRUCTION |  | x | x |  |  |
+| TOOL_NAME |  | x | x | yes |  |
+| VALIDATED_KEY |  | x | x | yes |  |
+| _message_adapter | x | x | x | yes | yes |
+| _result_text |  |  | x |  |  |
+| a2a_app | x |  |  |  |  |
+| a2ui_processor | x | x | x | yes | yes |
+| a2ui_toolset | x |  |  |  |  |
+| agent_executor_factory | x |  |  |  |  |
+| build_agent |  | x | x |  |  |
+| client |  |  | x |  |  |
+| compile_a2ui |  | x | x | yes |  |
+| health | x |  |  |  |  |
+| logger | x | x | x | yes | yes |
+| macro_expander | x | x | x | yes | yes |
+| mcp_client |  | x |  |  |  |
+| mcp_tool |  |  | x |  |  |
+| model |  | x |  |  |  |
+| root_agent | x |  |  |  |  |
+| send_a2ui_json_to_client |  | x | x |  |  |
+| system_prompt |  | x | x | yes |  |
